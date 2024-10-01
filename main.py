@@ -1,6 +1,21 @@
+# ask user if they want sharp or flat key
+goodChoice = True
 sharpKeys = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"]
 flatKeys = ["C", "Db", "D", "Eb", "E", "F", "Gb", "G", "Ab", "A", "Bb","B"]
 
+while goodChoice:
+    sharpOrFlat = input("Would you like this to output in terms of sharps or flats? (enter '#' or 'b'): ")
+
+    if sharpOrFlat == '#':
+        currentKeys = sharpKeys
+        goodChoice = False
+    elif sharpOrFlat == 'b':
+        currentKeys = flatKeys
+        goodChoice = False
+    else:
+        print("Choose '#' or 'b'")
+
+print(currentKeys)
 test = True
 
 # for i in range(len(flatKeys)):
@@ -45,6 +60,7 @@ if newKey >= len(flatKeys):
     newKey -= 12 # b/c I'm going to move it back to index 0, which will cost 1 index...
 
 print("Ok you're going from", currentKey,"->", flatKeys[newKey])
+
 
 
 
