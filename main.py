@@ -5,8 +5,8 @@ class Transpose:
     flatKeys = ["C", "Db", "D", "Eb", "E", "F", "Gb", "G", "Ab", "A", "Bb","B"]
 
     def __init__(self):
-        self.currentKeys = []
-        self.currentKey = ""
+        self.currentKeys = [] # becomes either sharpKeys or flatKeys depending on the user's choice
+        self.currentKey = "" # user enters key
         self.userChangeKey = 0
         self.newKey = ""
 
@@ -32,7 +32,7 @@ class Transpose:
         self.userChangeKey = int(input("Enter the half-steps you would like to change: "))
 
         if self.userChangeKey % 12 == 0:
-            print("You would like to syat in the same key?")
+            print("You would like to stay in the same key?")
         elif self.userChangeKey > 0:
             print("You would like to go from ", self.currentKey, " + ", self.userChangeKey)
         elif self.userChangeKey < 0:
@@ -40,7 +40,7 @@ class Transpose:
 
 
         key_index = 0
-        change_key = self.userChangeKey % 12
+        change_key = self.userChangeKey % 12 # 25 % 12 = 1
 
         for key in self.currentKeys:
             if key == self.currentKey:
