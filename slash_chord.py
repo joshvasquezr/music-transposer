@@ -1,0 +1,6 @@
+# This file is the logic for transposing a slash chord
+# A slash chord, also known as an inverted chord, is when the note after the slash is played in the bass rather than the
+# chord being the bass note...
+# For example: C / E
+# This chord is a C Major Chord with an E being played in the Bass...
+
