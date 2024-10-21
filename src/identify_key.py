@@ -28,7 +28,7 @@ for key in octave:
 
 scale_octave = []
 scale_index = 0
-while scale_index < 12:
+while scale_index < 13:
     if one_index > 11:
         one_index = one_index % 12
 
@@ -37,9 +37,13 @@ while scale_index < 12:
     if scale_index == 4 or scale_index == 11:
         scale_index += 1
         one_index += 1
+    elif scale_key == 12:
+        one_index = 0
+        scale_octave.append(octave[one_index])
     else:
         scale_index += 2
         one_index += 2
+
 
 print(scale_octave)
 

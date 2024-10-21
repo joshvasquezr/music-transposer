@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06994bf4-9f57-438f-8440-8ade1ed5fbc8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/identify_key.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/read_pdf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Break Every Chain - SongSelect Chart in A.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/data/song_A.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Break Every Chain - SongSelect Chart in F.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/data/song_F.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransposeProgression.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/TransposeProgression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/identify_key.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/identify_key.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slash_chord.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/slash_chord.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +56,7 @@
     "Python.Run Main.executor": "Debug",
     "Python.Run Transpose.executor": "Run",
     "Python.identify_key.executor": "Run",
+    "Python.read_pdf.executor": "Run",
     "Python.slash_chord.executor": "Run",
     "Python.transposeProgression.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -69,6 +79,10 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/data" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Run Main" type="PythonConfigurationType" factoryName="Python">
@@ -85,7 +99,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -109,7 +123,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TransposeProgression.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/TransposeProgression.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,7 +167,7 @@
       <workItem from="1728855064746" duration="1082000" />
       <workItem from="1728856156044" duration="6169000" />
       <workItem from="1729215190845" duration="6483000" />
-      <workItem from="1729466769715" duration="4047000" />
+      <workItem from="1729466769715" duration="7852000" />
     </task>
     <servers />
   </component>
@@ -167,8 +181,9 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/music_transposer$slash_chord.coverage" NAME="slash_chord Coverage Results" MODIFIED="1729217657848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/music_transposer$Run_Transpose.coverage" NAME="Run Transpose Coverage Results" MODIFIED="1728791294503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/music_transposer$identify_key.coverage" NAME="identify_key Coverage Results" MODIFIED="1729475324759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/music_transposer$transposeProgression.coverage" NAME="transposeProgression Coverage Results" MODIFIED="1729466782792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/music_transposer$identify_key.coverage" NAME="identify_key Coverage Results" MODIFIED="1729478465042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/music_transposer$read_pdf.coverage" NAME="read_pdf Coverage Results" MODIFIED="1729488235896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/music_transposer$transposeProgression.coverage" NAME="transposeProgression Coverage Results" MODIFIED="1729480105188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/music_transposer$Run_Main.coverage" NAME="Run Main Coverage Results" MODIFIED="1728869382215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
